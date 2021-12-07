@@ -1,0 +1,38 @@
+.filter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.filter .item + .item {
+  margin-left: 8px;
+}
+
+.filter-button {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 6.33px 22px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #f5f4fa;
+  letter-spacing: 0.03em;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+.filter-button:hover {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  color: var(--primary-fone-color);
+  background-color: var(--link-color);
+}
+
+.filter-button:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  color: var(--primary-fone-color);
+  background-color: var(--link-color);
+}
