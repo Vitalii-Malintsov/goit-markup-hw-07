@@ -40,10 +40,9 @@
 
 .list-social .item {
   box-shadow: none;
-}
-
-.list-social .item + .item {
-  margin-left: 10px;
+  & + .item {
+    margin-left: 10px;
+  }
 }
 
 .command-icon {
@@ -57,14 +56,9 @@
   fill: #afb1b8;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.command-icon:hover {
-  background-color: var(--link-color);
-  fill: var(--primary-fone-color);
-}
-
-.command-icon:focus {
-  background-color: var(--link-color);
-  fill: var(--primary-fone-color);
+  &:hover,
+  &:focus {
+    background-color: var(--link-color);
+    fill: var(--primary-fone-color);
+  }
 }
