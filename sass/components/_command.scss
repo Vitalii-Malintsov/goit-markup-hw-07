@@ -1,8 +1,8 @@
-.command {
-  background: #f5f4fa;
+.section__command-color {
+  background-color: #f5f4fa;
 }
 
-.command-item {
+.item__command {
   padding: 30px 0px;
   font-size: 16px;
   line-height: 1.19;
@@ -10,19 +10,19 @@
   background-color: var(--primary-fone-color);
 }
 
-.command-text {
+.command__text {
   margin-top: 0px;
   margin-bottom: 16px;
   color: var(--text-color);
 }
 
-.command-social {
+.command__social {
   display: flex;
   justify-content: space-around;
   width: 270px;
 }
 
-.command-icon {
+.command__icon {
   display: flex;
   justify-content: center;
   align-items: center;

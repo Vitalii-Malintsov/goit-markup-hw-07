@@ -1,4 +1,4 @@
-.item-monoblock::after {
+.item__work-monoblock::after {
   position: absolute;
   content: 'ДЕСТОПНЫЕ ПРИЛОЖЕНИЯ';
   font-weight: 700;
@@ -15,7 +15,7 @@
   right: 0px;
 }
 
-.item-notebook::after {
+.item__work-notebook::after {
   position: absolute;
   content: 'МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ';
   font-weight: 700;
@@ -32,7 +32,7 @@
   right: 0px;
 }
 
-.item-tablet::after {
+.item__work-tablet::after {
   position: absolute;
   content: 'ДИЗАЙНЕРСКИЕ РЕШЕНИЯ';
   font-weight: 700;
@@ -49,6 +49,6 @@
   right: 0px;
 }
 
-.work-img {
+.work__img {
   display: block;
 }
