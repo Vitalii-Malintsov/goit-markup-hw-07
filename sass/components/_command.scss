@@ -2,28 +2,12 @@
   background: #f5f4fa;
 }
 
-.command-list .item {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-  background-color: var(--primary-color);
-}
-
 .command-item {
   padding: 30px 0px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   background-color: var(--primary-fone-color);
-}
-
-.command-title {
-  margin-top: 0px;
-  margin-bottom: 10px;
-  font-style: 400;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
 }
 
 .command-text {
@@ -36,13 +20,6 @@
   display: flex;
   justify-content: space-around;
   width: 270px;
-}
-
-.list-social .item {
-  box-shadow: none;
-  & + .item {
-    margin-left: 10px;
-  }
 }
 
 .command-icon {
