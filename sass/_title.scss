@@ -13,10 +13,14 @@
 .title__social,
 .title__subscription {
   margin-top: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+}
+
+.title__feature {
+  margin-bottom: 10px;
 }
 
 .command__title {
@@ -26,4 +30,9 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+}
+
+.title__social-color,
+.title__subscription-color {
+  color: var(--primary-fone-color);
 }
