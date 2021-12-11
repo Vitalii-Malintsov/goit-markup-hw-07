@@ -6,10 +6,10 @@
         "../sass/utils/_vars.scss",
         "../sass/utils/_common.scss",
         "../sass/utils/_hidden.scss",
-        "../sass/_logo.scss",
-        "../sass/_button.scss",
-        "../sass/_title.scss",
-        "../sass/_lists.scss",
+        "../sass/components/_logo.scss",
+        "../sass/components/_button.scss",
+        "../sass/components/_title.scss",
+        "../sass/components/_lists.scss",
         "../sass/components/_header.scss",
         "../sass/components/_hero.scss",
         "../sass/components/_feature.scss",
@@ -20,7 +20,7 @@
         "../sass/components/_filter.scss",
         "../sass/components/_examples.scss",
         "../sass/components/_modal.scss",
-        "../sass/_form.scss"
+        "../sass/components/_form.scss"
     ],
     "names": [],
     "file": "main.css"

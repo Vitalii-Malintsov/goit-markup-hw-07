@@ -1,10 +1,10 @@
 @import './utils/vars';
 @import './utils/common';
 @import './utils/hidden';
-@import './logo';
-@import './button';
-@import './title';
-@import './lists';
+@import './components/logo';
+@import './components/button';
+@import './components/title';
+@import './components/lists';
 @import './components/header';
 @import './components/hero';
 @import './components/feature';
@@ -15,4 +15,4 @@
 @import './components/filter';
 @import './components/examples';
 @import './components/modal';
-@import './form';
+@import './components/form';
